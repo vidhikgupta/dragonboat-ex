@@ -1,0 +1,1 @@
+{"buildTargets":["all","clean","helloworld","multigroup","ondisk","optimistic-write-lock"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
