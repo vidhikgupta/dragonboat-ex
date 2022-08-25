@@ -230,6 +230,8 @@ func main() {
 		RTTMillisecond: 200,
 		// RaftAddress is used to identify the NodeHost instance
 		RaftAddress: nodeAddr,
+		//AddressByNodeHostID: true,
+		ListenAddress: "34.131.129.59:8090",
 	}
 	fmt.Println("nhc.AddressByNodeHostID", nhc.AddressByNodeHostID)
 	fmt.Println("nhc.DeploymentID", nhc.DeploymentID)
