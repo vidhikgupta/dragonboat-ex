@@ -47,9 +47,9 @@ var (
 	// initial nodes count is fixed to three, their addresses are also fixed
 	// these are the initial member nodes of the Raft cluster.
 	addresses = []string{
-		"34.131.129.59:8090",
-		"34.93.228.166:8090",
-		"34.100.168.202:8090",
+		"34.131.129.59:8094",
+		"34.93.228.166:8094",
+		"34.100.168.202:8094",
 	}
 	errNotMembershipChange = errors.New("not a membership change request")
 )
@@ -232,7 +232,7 @@ func main() {
 		// RaftAddress is used to identify the NodeHost instance
 		RaftAddress: nodeAddr,
 		//AddressByNodeHostID: true,
-		ListenAddress: "0.0.0.0:8090",
+		ListenAddress: "0.0.0.0:8094",
 	}
 	fmt.Println("nhc.AddressByNodeHostID", nhc.AddressByNodeHostID)
 	fmt.Println("nhc.DeploymentID", nhc.DeploymentID)
