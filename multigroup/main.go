@@ -48,9 +48,9 @@ var (
 	// initial nodes count is three, their addresses are also fixed
 	// this is for simplicity
 	addresses = []string{
-		"localhost:63001",
-		"localhost:63002",
-		"localhost:63003",
+		"34.131.129.59:8094",
+		"34.93.228.166:8094",
+		"34.100.168.202:8094",
 	}
 )
 
@@ -110,6 +110,7 @@ func main() {
 		NodeHostDir:    datadir,
 		RTTMillisecond: 200,
 		RaftAddress:    nodeAddr,
+		ListenAddress:  "0.0.0.0:8094",
 		// RaftRPCFactory: rpc.NewRaftGRPC,
 	}
 	// create a NodeHost instance. it is a facade interface allowing access to
