@@ -49,6 +49,7 @@ var (
 	addresses = []string{
 		"34.131.129.59:8090",
 		"34.93.228.166:8090",
+		"34.100.168.202:8090",
 	}
 	errNotMembershipChange = errors.New("not a membership change request")
 )
